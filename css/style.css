@@ -35,9 +35,16 @@ body {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
 
-  width: 10px;
+::-webkit-scrollbar-thumb {
+  background-color: #ff0000; /* Cor do botão da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000; /* Cor do fundo da barra de rolagem */
 }
 
 @media screen and (max-width: 800px) {
